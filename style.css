@@ -68,12 +68,22 @@
 header{
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 1rem 1.5rem;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    left: 345px;
+    width: calc(100% - 345px);
+    top: 0;
+    z-index: 100;
 }
 
 header h3{
     color: #222;
+}
+
+header label span{
+    font-size: 1.5rem;
+    padding-right: 1rem;
 }
 
 .search-wrapper{
