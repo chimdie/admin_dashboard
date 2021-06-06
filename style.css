@@ -28,6 +28,10 @@
 .sidebar-brand{
     height: 90px;
     padding: 1rem 0rem 1rem 2rem;
+    /* color: #fff; */
+}
+
+.sidebar-brand a{
     color: #fff;
 }
 
@@ -145,9 +149,27 @@ main{
     background: #fff;
     padding: 2rem;
     border-radius: 7px;
-    box-shadow: 1px 3px 9px 0px rgba(151,132,132,0.76);
+    /* box-shadow: 1px 3px 4px 0px rgba(151,132,132,0.76); */
+    color: var(--main);
 }
 
-.card-single h3 + span{
+/* .card-single div:first-child span{
     color: var(--grey);
+} */
+
+.card-single div:last-child span{
+    font-size: 2rem;
+    color: var(--main);
+    padding-top: .70rem;
+    color: var(--main);
 }
+
+/* .card-single:last-child{
+    background-color: var(--main);
+} */
+
+/* .card-single:last-child h3,
+.card-single:last-child div:first-child span,
+.card-single:last-child div:last-child span{
+    color: #fff
+} */
