@@ -22,6 +22,7 @@
     position: fixed;
     height: 100%;
     background-color: var(--main);
+    z-index: 100;
 }
 
 .sidebar-brand{
@@ -122,4 +123,31 @@ header label span{
     color: var(--grey);
     font-weight: 700;
     margin-top: -20px !important;
+}
+
+main{
+    margin-top: 85px;
+    padding: 2rem 1.5rem;
+    background: #f0f0f0;
+    min-height: calc(100vh - 90px)
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 2rem;
+    margin-top: 1rem;
+}
+
+.card-single{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 7px;
+    box-shadow: 1px 3px 9px 0px rgba(151,132,132,0.76);
+}
+
+.card-single h3 + span{
+    color: var(--grey);
 }
