@@ -174,44 +174,6 @@ main{
     color: #fff
 }
 
-
-/* .grid{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 2rem;
-    margin-top: 1rem;
-}
-
-.card{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    background: #fff;
-    padding: 3rem;
-    padding-bottom: .5rem;
-    border-radius: 7px;
-    box-shadow: 1px 3px 4px 0px rgba(151,132,132,0.76);
-    color: var(--main);
-}
-
-.card > h5{
-    padding: 2rem;
-    text-align: center;
-    font-weight: 900;
-    font-size: 1.5rem;
-}
-
-.card button {
-    border: none;
-    background: inherit;
-    padding: 1rem 1rem 0 0;
-    display: flex;
-    justify-content: flex-end;
-    cursor: pointer;
-    font-style: italic;
-    color: var(--grey);
-} */
-
 .project-grid{
     margin-top: 3.5rem;
     display: grid;
@@ -233,6 +195,7 @@ main{
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 1rem;
 }
 
 .card-header button{
@@ -246,4 +209,9 @@ main{
 
 table{
     border-collapse: collapse;
+}
+
+thead{
+    border-bottom: 1px solid #f0f0f0;
+    border-top: 1px solid #f0f0f0;
 }
