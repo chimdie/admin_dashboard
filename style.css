@@ -211,3 +211,39 @@ main{
     font-style: italic;
     color: var(--grey);
 } */
+
+.project-grid{
+    margin-top: 3.5rem;
+    display: grid;
+    grid-template-columns: 70% auto;
+    grid-gap: 2rem;
+}
+
+.card{
+    background: #fff;
+    border-radius: 5px;
+}
+
+.card-body, .card-header{
+    padding: 1rem;
+}
+
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.card-header button{
+    background: var(--main);
+    color: #fff;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    font-size: .8rem;
+    border: none;
+}
+
+table{
+    border-collapse: collapse;
+}
