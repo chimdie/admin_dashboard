@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <input type="checkbox" name="toggle" id="toggle">
     <div>
       <div class="sidebar">
         <div class="sidebar-brand">
@@ -62,7 +63,7 @@
       <div class="container">
         <header>
           <h3>
-            <label for="">
+            <label for="toggle">
               <span class="las la-bars"></span>
             </label>
             Dashboard
@@ -130,32 +131,34 @@
                   <button>See all <span class="las la-arrow-right"></span></button>
                 </div>
                 <div class="card-body">
-                  <table width="100%">
-                    <thead>
-                      <tr>
-                        <td>Title</td>
-                        <td>Department</td>
-                        <td>Status</td>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>Web Development</td>
-                        <td>Dev Team</td>
-                        <td><span class="status"></span>in progress</td>
-                      </tr>
-                      <tr>
-                        <td>UI/UX Design</td>
-                        <td>UI Team</td>
-                        <td><span class="status"></span>review</td>
-                      </tr>
-                      <tr>
-                        <td>Mobile Development</td>
-                        <td>Mobile Devs</td>
-                        <td><span class="status"></span>pending</td>
-                      </tr>
-                    </tbody>
-                  </table>
+                  <div class="table-res">
+                    <table width="100%">
+                      <!-- <thead>
+                        <tr>
+                          <td>Title</td>
+                          <td>Department</td>
+                          <td>Status</td>
+                        </tr>
+                      </thead> -->
+                      <tbody>
+                        <tr>
+                          <td>Web Development</td>
+                          <td>Dev Team</td>
+                          <td><span class="status yellow"></span>in progress</td>
+                        </tr>
+                        <tr>
+                          <td>UI/UX Design</td>
+                          <td>UI Team</td>
+                          <td><span class="status blue"></span>review</td>
+                        </tr>
+                        <tr>
+                          <td>Mobile Development</td>
+                          <td>Mobile Devs</td>
+                          <td><span class="status red"></span>pending</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
                 </div>
               </div>
             </div>
@@ -170,11 +173,11 @@
                     <div class="details">
                       <img src="./images/me.jpg" width="40px" height="40px">
                       <div class="">
-                        <h4>Nwachuks Igwe</h4>
+                        <h5>Adaugo</h5>
                         <small>CEO</small>
                       </div>
                     </div>
-                    <div>
+                    <div class="contact">
                       <span class="las la-user-circle"></span>
                       <span class="las la-comment"></span>
                       <span class="las la-phone"></span>
@@ -184,11 +187,11 @@
                     <div class="details">
                       <img src="./images/me.jpg" width="40px" height="40px">
                       <div class="">
-                        <h4>Nwachuks Igwe</h4>
-                        <small>CEO</small>
+                        <h5>Nwachuks</h5>
+                        <small>CTO</small>
                       </div>
                     </div>
-                    <div>
+                    <div class="contact">
                       <span class="las la-user-circle"></span>
                       <span class="las la-comment"></span>
                       <span class="las la-phone"></span>
@@ -198,11 +201,11 @@
                     <div class="details">
                       <img src="./images/me.jpg" width="40px" height="40px">
                       <div class="">
-                        <h4>Nwachuks Igwe</h4>
-                        <small>CEO</small>
+                        <h5>Amadi</h5>
+                        <small>Devrel</small>
                       </div>
                     </div>
-                    <div>
+                    <div class="contact">
                       <span class="las la-user-circle"></span>
                       <span class="las la-comment"></span>
                       <span class="las la-phone"></span>
@@ -212,11 +215,11 @@
                     <div class="details">
                       <img src="./images/me.jpg" width="40px" height="40px">
                       <div class="">
-                        <h4>Nwachuks Igwe</h4>
-                        <small>CEO</small>
+                        <h5>Amara</h5>
+                        <small>Consultant</small>
                       </div>
                     </div>
-                    <div>
+                    <div class="contact">
                       <span class="las la-user-circle"></span>
                       <span class="las la-comment"></span>
                       <span class="las la-phone"></span>
